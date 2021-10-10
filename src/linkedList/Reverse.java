@@ -10,7 +10,7 @@ public class Reverse {
 		
 		Node prev = null;
 		Node current = head;
-		Node next = head;
+		Node next = null;
 		
 		while(current!=null) {
 			next = current.next;
